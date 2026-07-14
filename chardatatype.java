@@ -20,6 +20,5 @@ public class chardatatype {
     int x = (int)ch;
     System.out.println(x);
     sc.close();
-  
     }
 }
