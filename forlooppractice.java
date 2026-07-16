@@ -95,7 +95,7 @@
 //     }
 // }
 
-// import java.util.Scanner ;       // fcatorial of evry number 1 to n
+// import java.util.Scanner ;       // factorial of evry number 1 to n
 // public class forlooppractice{
 //     public static void main(String[] args) {
 //         Scanner sc = new Scanner (System.in);
@@ -112,24 +112,74 @@
 //     }
 // }
 
+// import java.util.Scanner;       // check if its prime or nnot
+// public class forlooppractice{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner (System.in);
+//         int n = sc.nextInt();
+
+//         boolean factorFound = false;
+
+//         for(int i = 2; i <= n-1; i++)
+//         {
+//             if ( n % i == 0)
+//             {
+//                 System.out.println("not prime");
+//                 factorFound = true;
+//                 break;
+//             }
+//         }
+//         if ( factorFound = true) System.out.println("not");
+//         else if (factorFound = false) System.out.println("yes");
+//     }
+// }
+
+
+// import java.util.Scanner ;             // another exmaple of previous question
+// public class forlooppractice{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner (System.in);
+//         int n = sc.nextInt();
+          
+//         boolean factorFound = false;
+
+//         for(int i = 2; i <= n-1; i++)
+//         {
+//             if ( n % i == 0)
+//             {
+//                 factorFound = true;
+//                 break;
+//             }
+//         }
+//         if (factorFound == true) System.out.println("not found yet");
+//         else if (factorFound== false)System.out.println("yeas its prime number");
+//     }
+// }
+
 import java.util.Scanner;
-public class forlooppractice{
+
+public class forlooppractice {
+
     public static void main(String[] args) {
+
         Scanner sc = new Scanner (System.in);
+
+        System.out.println("Enter the number of terms:");
         int n = sc.nextInt();
 
-        boolean factorFound = false;
+        int num1 = 0;
+        int num2 = 1;
 
-        for(int i = 2; i <= n-1; i++)
-        {
-            if ( n % i == 0)
-            {
-                System.out.println("not prime");
-                factorFound = true;
-                break;
-            }
+        for (int i = 0; i < n; i++) {
+
+            System.out.println(num1);
+
+            int next = num1 + num2;
+
+            num1 = num2;
+            num2 = next;
         }
-        if ( factorFound = true) System.out.println("not");
-        else if (factorFound = false) System.out.println("yes");
+
+        sc.close();
     }
 }
