@@ -187,16 +187,43 @@
 // }
 
  // continue
+// public class loops {
+//     public static void main(String[] args) {
+
+//         for (int i = 1; i <= 100; i++) {
+
+//             if (i % 2 == 0) {
+//                 continue;   // Skip even numbers
+//             }
+
+//             System.out.println(i);
+//         }
+//     }
+// }
+import java.util.Scanner;
+
 public class loops {
+
     public static void main(String[] args) {
 
-        for (int i = 1; i <= 100; i++) {
+        Scanner sc = new Scanner (System.in);
 
-            if (i % 2 == 0) {
-                continue;   // Skip even numbers
-            }
+        System.out.println("Enter the number of terms:");
+        int n = sc.nextInt();
 
-            System.out.println(i);
+        int num1 = 0;
+        int num2 = 1;
+
+        for (int i = 0; i < n; i++) {
+
+            System.out.println(num1);
+
+            int next = num1 + num2;
+
+            num1 = num2;
+            num2 = next;
         }
+
+        sc.close();
     }
 }
