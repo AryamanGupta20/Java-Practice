@@ -184,5 +184,101 @@
 //     }
 // }
 
-import java.util.Scanner;
+// import java.util.Scanner;          // sum of all fibonacci terms
+// public class forlooppractice{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner (System.in);
+//         int n = sc.nextInt();
+
+//         int num1 = 0;
+//         int num2 = 1;
+//          int sum =0;
+
+//         for(int i = 0; i <= n-1; i++)
+//         {
+//             System.out.println(num1);
+//             sum += num1;
+
+//             int next = num1 + num2;
+//             num1  = num2 ;
+//             num2 = next;
+//         }
+//        System.out.println(sum);
+//     }
+// }
+
+
+// import java.util.Scanner;       // print all factors of the given number
+// public class forlooppractice{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int n = sc.nextInt();
+
+//         for ( int i = 1; i <= n; i++)
+//         {
+//             if (n % i == 0)System.out.println(i);
+//         }
+//     }
+// }
+
+// import java.util.Scanner;      // sum of all factors 
+// public class forlooppractice{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner (System.in);
+//         int n = sc.nextInt();
+//         int sum = 0;
+//         for (int i = 1; i <= n; i++)
+//         {
+//             if (n % i == 0) 
+//             {
+//                 System.out.println(i);
+//                 sum+=i;
+//             }
+//         }
+//         System.out.println(sum);
+//     }
+// }
+
+
+// import java.util.Scanner;            // hcf
+// public class forlooppractice{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("enter first number");
+//         int num1 = sc.nextInt();
+//         System.out.println("second number");
+//         int num2 = sc.nextInt();
+//         int hcf = 1;
+
+//         int min = (Math.min(num1,num2));
+
+//         for (int i=1; i <= min; i++)
+//         {
+//             if ( num1 % i == 0 && num2 % i == 0)
+//             hcf = i;
+//         }
+// System.out.println(hcf);
+//     }
+// }
  
+
+import java.util.Scanner;
+public class forlooppractice{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter first number");
+        int num1 = sc.nextInt();
+        System.out.println("second number");
+        int num2 = sc.nextInt();
+         int max= (Math.max(num1,num2));
+
+        for (int i=max; ;i++)
+        {
+             if ( i % num1 == 0 && i % num2 == 0){
+   System.out.println(i);
+   break;
+        }
+    }
+   
+    }
+}
