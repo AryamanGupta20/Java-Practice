@@ -156,30 +156,33 @@
 //     }
 // }
 
+// import java.util.Scanner;       // fibonacci series
+
+// public class forlooppractice {
+
+//     public static void main(String[] args) {
+
+//         Scanner sc = new Scanner (System.in);
+
+//         System.out.println("Enter the number of terms:");
+//         int n = sc.nextInt();
+
+//         int num1 = 0;
+//         int num2 = 1;
+
+//         for (int i = 0; i < n; i++) {
+
+//             System.out.println(num1);
+
+//             int next = num1 + num2;
+
+//             num1 = num2;
+//             num2 = next;
+//         }
+
+//         sc.close();
+//     }
+// }
+
 import java.util.Scanner;
-
-public class forlooppractice {
-
-    public static void main(String[] args) {
-
-        Scanner sc = new Scanner (System.in);
-
-        System.out.println("Enter the number of terms:");
-        int n = sc.nextInt();
-
-        int num1 = 0;
-        int num2 = 1;
-
-        for (int i = 0; i < n; i++) {
-
-            System.out.println(num1);
-
-            int next = num1 + num2;
-
-            num1 = num2;
-            num2 = next;
-        }
-
-        sc.close();
-    }
-}
+ 
