@@ -5,5 +5,5 @@ public static void main(String[] args) {
     double area = pi * r * r;
      System.out.println("area of circle"+area);
 }
-    
+     
 }
