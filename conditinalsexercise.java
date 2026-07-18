@@ -739,14 +739,14 @@
 // }
 
 
-// import java.util.Scanner ;
-// public class conditinalsexercise{
-//         public static void main(String[] args) {
-//                 Scanner sc = new Scanner(System.in);
-//           System.out.println("enter the number");
-//           int num = sc.nextInt();
+import java.util.Scanner ;
+public class conditinalsexercise{
+        public static void main(String[] args) {
+                Scanner sc = new Scanner(System.in);
+          System.out.println("enter the number");
+          int num = sc.nextInt();
 
-//         if (num % 7 == 0 || num % 10 == 7) System.out.println("distinct");
-//         else System.out.println("no");
-//         }
-// }
+        if (num % 7 == 0 || num % 10 == 7) System.out.println("distinct");
+        else System.out.println("no");
+        }
+}
