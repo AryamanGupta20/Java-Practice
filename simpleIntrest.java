@@ -5,6 +5,6 @@ public class simpleIntrest {
         r = 3.75;
         t = 3.5;
         si = (p * r * t)/100;
-        System.out.println("simple ineterst : "+si);
+    System.out.println("simple ineterst : "+si);
     }
 }
