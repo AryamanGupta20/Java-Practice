@@ -51,5 +51,5 @@ public class userInput {
 
     System.out.println("the area of rectangle :"+l*b);
     sc.close();
-  }
+}
 }
