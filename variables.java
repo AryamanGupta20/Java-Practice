@@ -5,6 +5,6 @@ public class variables {
         int x = 5;
         x++;
         ++x;                                         // initialisation
-        System.out.println(x);
+    System.out.println(x);
     }
 }
