@@ -7,5 +7,5 @@ public class typecastng {
         double y = (double) x;
         System.out.println(y/2);
         sc.close();
-    }
+ }
 }
