@@ -383,5 +383,6 @@ public class forlooppractice{
              mul = i*i*i;
              System.out.println(mul);
         }
-    }
+   sc.close();
+ }
 }
