@@ -748,5 +748,7 @@ public class conditinalsexercise{
 
         if (num % 7 == 0 || num % 10 == 7) System.out.println("distinct");
         else System.out.println("no");
-        }
+   sc.close();
+   
+}
 }
