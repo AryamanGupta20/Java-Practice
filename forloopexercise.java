@@ -10,5 +10,5 @@ public class forloopexercise {
             System.out.println(i);
         }
     sc.close();
-}
-}
+    }
+    }
