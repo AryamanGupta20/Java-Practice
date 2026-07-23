@@ -136,3 +136,22 @@
 //         System.out.println(sum);
 //     }
 // }
+
+// import java.util.Scanner;        // sum of odd numbers from 1 to n
+// public class whileloop{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner (System.in);
+//         int n = sc.nextInt();
+//         int sum = 0;
+//         int i = 3;
+//         while ( i <= n)
+//         {
+//             System.out.println(i);
+//             sum += i;
+//             i += 2;
+//         }
+//         System.out.println(sum);
+//     }
+// }
+
+
