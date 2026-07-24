@@ -264,3 +264,40 @@
 //     }
 // }
 
+// import java.util.Scanner;      //revision
+// public class whileloop{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner (System.in);
+//         int n = sc.nextInt();
+//         int count = 0;
+        
+//         while(n != 0)
+//         {
+//             int ld = n % 10;
+//             count += 1;
+//             n/=10;
+//         }
+// System.out.println(count);
+//     }
+// }
+
+// import java.util.Scanner;
+// public class whileloop{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int n = sc.nextInt();
+//         int i = 2;
+        
+//         boolean factorFound = false;
+
+//         while( i <= n)
+//         {
+//             if (n % i == 0)
+//                 factorFound = true;
+//             break;
+//         }
+//         if (factorFound == true) System.out.println("no");
+//         else if (factorFound == false) System.out.println("yes");
+//     }
+// }
+
