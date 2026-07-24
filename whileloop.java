@@ -207,23 +207,60 @@
 // }
 
 
-import java.util.Scanner;    // check whether the given number is prime or not
-public class whileloop{
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        int i = 2;
-        boolean factorFound = false;
+// import java.util.Scanner;    // check whether the given number is prime or not
+// public class whileloop{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int n = sc.nextInt();
+//         int i = 2;
+//         boolean factorFound = false;
 
-        while (i <= n)
-        {
-            if (n % i == 0)
-                factorFound = true;
-                break;
-        }
-        if ( factorFound == true) System.out.println("no");
-        else if ( factorFound == false ) System.out.println("prime number");
+//         while (i <= n)
+//         {
+//             if (n % i == 0)
+//                 factorFound = true;
+//                 break;
+//         }
+//         if ( factorFound == true) System.out.println("no");
+//         else if ( factorFound == false ) System.out.println("prime number");
 
-   sc.close();
- }
-}
+//    sc.close();
+//  }
+// }
+
+
+// import java.util.Scanner;   //revision
+// public class whileloop{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner (System.in);
+//         int n = sc.nextInt();
+//         int i = 1;
+//         int fact = 1;
+
+//         while ( i <= n)
+//         {
+//             fact = fact * i;
+//               System.out.println(fact);
+//             i++;
+//         }
+      
+//     }
+// }
+
+// import java.util.Scanner;
+// public class whileloop{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner (System.in);
+//         int n = sc.nextInt();
+//         int pro = 1;
+
+//         while (n != 0)
+//         {
+//             int ld = n % 10;
+//             pro = pro * ld;
+//             n /=10;
+//         }
+//         System.out.println(pro);
+//     }
+// }
+
