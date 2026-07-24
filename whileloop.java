@@ -301,3 +301,63 @@
 //     }
 // }
 
+// import java.util.Scanner;  //fibonacci series till n term
+// public class whileloop{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner (System.in);
+//         int n = sc.nextInt();
+
+//         int i = 0;
+
+//         int num1 = 0;
+//         int num2 = 1;
+
+//         while(i <= n)
+//         {
+//             int next = num1 + num2;
+//             System.out.println(num1);
+//            i++;
+//             num1 = num2;
+//             num2 = next;
+//         }
+//     }
+// }
+
+// import java.util.Scanner;      // sum of fibonacci series
+// public class whileloop{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner (System.in);
+//         int n = sc.nextInt();
+// int i = 0;
+//         int num1 = 0;
+//         int num2 = 1;
+// int sum = 0;
+
+//         while(i <= n)
+//         {
+//             int next =num1+num2;
+//             System.out.println(num1);
+//             sum+=num1;
+//             i++;
+
+//              num1 = num2;
+//             num2 = next;
+//         }
+//         System.out.println("sum of series is "+sum);
+//     }
+// }
+
+// import java.util.Scanner;         //square of every number from 1 to n
+// public class whileloop{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner (System.in);
+//         int n = sc.nextInt();
+//         int i = 1;
+
+//         while(i <= n)
+//         {
+//             System.out.println(i*i);
+//             i++;
+//         }
+//     }
+// }
