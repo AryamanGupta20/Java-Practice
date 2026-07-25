@@ -347,17 +347,17 @@
 //     }
 // }
 
-// import java.util.Scanner;         //square of every number from 1 to n
-// public class whileloop{
-//     public static void main(String[] args) {
-//         Scanner sc = new Scanner (System.in);
-//         int n = sc.nextInt();
-//         int i = 1;
+import java.util.Scanner;         //square of every number from 1 to n
+public class whileloop{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner (System.in);
+        int n = sc.nextInt();
+        int i = 1;
 
-//         while(i <= n)
-//         {
-//             System.out.println(i*i);
-//             i++;
-//         }
-//     }
-// }
+        while(i <= n)
+        {
+            System.out.println(i*i);
+        i++;
+        }
+    }
+}
