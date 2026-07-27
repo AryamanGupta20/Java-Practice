@@ -103,19 +103,123 @@
 //     }
 // }
 
-import java.util.Scanner;
+// import java.util.Scanner;
+// public class trianglepatterns{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int n = sc.nextInt();
+
+//         for(int i=1; i<=n;i++)
+//         {
+//             for(int j =1;j<=n+1-i;j++)
+//             {
+//                 System.out.print(j);
+//             }
+//      System.out.println();
+//        }
+//     }
+// }
+
+// import java.util.Scanner;               // revision
+// public class trianglepatterns{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int n = sc.nextInt();
+
+//         for(int i =1; i <= n;i++)
+//         {
+//             for(int j =1; j <= i;j++)
+//             {
+//                 System.out.print((char)(j+96));
+//             }
+//         System.out.println();
+//     }
+//     }
+// }
+
+// import java.util.Scanner;       // revision
+// public class trianglepatterns{
+//     public static void main(String[] args) {
+        
+//         Scanner sc = new Scanner(System.in);
+//         int n = sc.nextInt();
+
+//         for(int i =1; i<=n; i++)
+//         {
+//             for(int j =1; j <= n+1-i;j++)
+//             {
+//                 System.out.print((char)(i+64));
+//             }
+//         System.out.println();}
+//     }
+// }
+
+// import java.util.Scanner;     //odd number triangle  1st method
+// public class trianglepatterns{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner (System.in);
+//         int n = sc.nextInt();
+
+//         for(int i =1; i<=n;i++)
+//         {
+//             for(int j =1;j<=i;j++)
+//             {
+//                 System.out.print(2*j-1);                
+//             }
+//         System.out.println();
+//     }
+//     }
+// }
+
+// import java.util.Scanner;     //odd number triangle  2nd method by ap
+// public class trianglepatterns{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner (System.in);
+//         int n = sc.nextInt();
+
+//         for(int i =1; i<=n;i++)
+//         {
+//             for(int j =1;j<=2*i-1;j+=2)
+//             {
+//                 System.out.print(j);                
+//             }
+//         System.out.println();
+//     }
+//     }
+// }
+
+// import java.util.Scanner;     //odd number triangle  3rd method 
+// public class trianglepatterns{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner (System.in);
+//         int n = sc.nextInt();
+
+//         for(int i =1; i<=n;i++)
+//         {
+//             int a = 1;               // to start very line from 1
+//             for(int j =1;j<=i;j++)
+//             {
+//                 System.out.print(a);
+//                 a += 2;                
+//             }
+//         System.out.println();
+//     }
+//     }
+// }
+
+import java.util.Scanner;         //floyd,s triangle
 public class trianglepatterns{
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner (System.in);
         int n = sc.nextInt();
-
-        for(int i=1; i<=n;i++)
-        {
-            for(int j =1;j<=n+1-i;j++)
+         int a = 1;                // for change the value 
+        for(int i =1; i<= n;i++)
+          {
+            for(int j =1;j<=i;j++)
             {
-                System.out.print(j);
+                System.out.print(a);
+                a +=1 ;                     // changing j  constantly 1 to 2 2 to 3 3 to 4
             }
-     System.out.println();
-       }
+       System.out.println(); }
     }
 }
