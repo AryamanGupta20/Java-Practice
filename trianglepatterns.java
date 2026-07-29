@@ -1,8 +1,4 @@
-// import java.util.Scanner;             //star triangle
-
-// public class trianglepatterns {
-//     public static void main(String[] args) {
-//         Scanner sc = new Scanner(System.in);
+//  = new Scanner(System.in);
 //         int n = sc.nextInt();
 
 //         for(int i =1; i <= n;i++)
@@ -206,20 +202,141 @@
 //     }
 //     }
 // }
+// import java.util.Scanner;         //floyd,s triangle
+// public class trianglepatterns{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner (System.in);
+//         int n = sc.nextInt();
+//          int a = 1;                // for change the value 
+//         for(int i =1; i<= n;i++)
+//           {
+//             for(int j =1;j<=i;j++)
+//             {
+//                 System.out.print(a);
+//                 a +=1 ;                     // changing j  constantly 1 to 2 2 to 3 3 to 4
+//             }
+//        System.out.println(); }
+//      }
+// }
 
-import java.util.Scanner;         //floyd,s triangle
+// import java.util.Scanner;
+// public class trianglepatterns{
+//   public static void main(String[] args) {
+//     Scanner sc = new Scanner (System.in);
+//     int n = sc.nextInt();
+// int a =1;
+//     for(int i =1;i <=n;i++)
+//     {
+//       for(int j =1;j<=i;j++)
+//       {
+//         System.out.print(a);
+//         a++;
+//       }
+//    System.out.println();
+//    }
+//   }
+// } 
+
+// import java.util.Scanner;                 // print the pattern q 8 star plus 
+// public class trianglepatterns{
+//   public static void main(String[] args) {
+//     Scanner sc = new Scanner(System.in);
+//     int n =sc.nextInt();
+// int mid = n/2+1;
+//     for(int i=1;i<=n;i++)
+//     {
+//       for(int j =1;j<=n;j++)
+//       {
+//         if ( i== mid || j == mid)
+//           System.out.print("* ");
+//         else 
+//           System.out.print(" "+" ");
+//       }
+//     System.out.println();
+//   }
+//   }
+// }
+
+// import java.util.Scanner;              //star cross
+// public class trianglepatterns{
+//   public static void main(String[] args) {
+//     Scanner sc = new Scanner(System.in);
+//     int n = sc.nextInt();
+
+//     for(int i=1;i<=n;i++)
+//     {
+//       for(int j=1;j<=n;j++)
+//       {
+//         if ( i == j || i + j == n+1)
+//           System.out.print("* ");
+//         else System.out.print(" "+" ");
+//       }
+//    System.out.println(); }
+//   }
+// }
+
+// import java.util.Scanner;             //binary traingle
+// public class trianglepatterns{
+//   public static void main(String[] args) {
+//     Scanner sc = new Scanner(System.in);
+//     int n = sc.nextInt();
+
+//     for(int i=1;i<=n;i++)
+//     {
+//       for(int j=1;j<=i;j++)
+//       {
+//         if (i % 2 != 0){
+//          if (j % 2 == 1)
+//           System.out.print("1 ");
+//         else System.out.print("0 ");
+// }
+//  if (i % 2 == 0){
+//    if(j%2==0)
+//    System.out.print("1 ");
+//   else System.out.print("0 ");
+//   }}
+//   System.out.println();}
+
+// }
+// }
+
+// import java.util.Scanner;            //reevision
+// public class trianglepatterns{
+//   public static void main(String[] args) {
+//     Scanner sc = new Scanner (System.in);
+//     int n = sc.nextInt();
+
+//     int mid = 2/n+1;
+
+//     for(int i=1;i<=n;i++)
+//     {
+//       for(int j =1;j<=n;j++)
+//       {
+//         if(i == mid || j == mid)
+//         System.out.print("* ");
+//         else 
+//         System.out.print(" "+" ");    
+//        }
+//     System.out.println();
+//   }
+//   }
+// }
+
+import java.util.Scanner;           //method 1
 public class trianglepatterns{
-    public static void main(String[] args) {
-        Scanner sc = new Scanner (System.in);
-        int n = sc.nextInt();
-         int a = 1;                // for change the value 
-        for(int i =1; i<= n;i++)
-          {
-            for(int j =1;j<=i;j++)
-            {
-                System.out.print(a);
-                a +=1 ;                     // changing j  constantly 1 to 2 2 to 3 3 to 4
-            }
-       System.out.println(); }
-     }
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    int n = sc.nextInt();
+
+    for(int i=1;i<=n;i++)
+    {
+      for(int j=1;j<=n;j++)
+      {
+        if (i+j>n)
+          System.out.print("*"+" ");
+        else System.out.print(" "+" ");
+      }
+    System.out.println();
+  }
+  }
 }
