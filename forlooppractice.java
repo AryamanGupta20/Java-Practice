@@ -372,17 +372,17 @@
 //     }
 // }
 
-import java.util.Scanner;        // cube of evry number from 1 to n
-public class forlooppractice{
-    public static void main(String[] args) {
-        Scanner sc = new Scanner (System.in);
-        int n = sc.nextInt();
-        int mul = 1;
-        for(int i = 1; i<= n;i++)
-        {
-             mul = i*i*i;
-             System.out.println(mul);
-        }
-   sc.close();
- }
-}
+// import java.util.Scanner;        // cube of evry number from 1 to n
+// public class forlooppractice{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner (System.in);
+//         int n = sc.nextInt();
+//          int mul = 1;
+//         for(int i = 1; i<= n;i++)
+//         {
+//              mul = i*i*i;
+//              System.out.println(mul);
+//         }
+//    sc.close();
+//  }
+// }
