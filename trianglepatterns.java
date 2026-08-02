@@ -383,23 +383,298 @@
 //   }
 // }
 
-import java.util.Scanner;                    //star pyramid
-public class trianglepatterns{
-  public static void main(String[] args) {
-    Scanner sc = new Scanner(System.in);
-    int n = sc.nextInt();
+// import java.util.Scanner;                    //star pyramid
+// public class trianglepatterns{
+//   public static void main(String[] args) {
+//     Scanner sc = new Scanner(System.in);
+//     int n = sc.nextInt();
 
-     for(int i =1;i<=n;i++)
-    {
-      for (int j =1;j<=n-i;j++)
-      {
-        System.out.print(" "+" ");
-      }
-      for(int j = 1;j<=2*i-1;j++)
-      {
-          System.out.print("*"+" ");
-      }
-    System.out.println();
-  }
- sc.close(); }
-}
+//      for(int i =1;i<=n;i++)
+//     {
+//       for (int j =1;j<=n-i;j++)
+//       {
+//         System.out.print(" "+" ");
+//       }
+//       for(int j = 1;j<=2*i-1;j++)
+//       {
+//           System.out.print("*"+" ");
+//       }
+//     System.out.println();
+//   }
+//  sc.close(); }
+// }
+
+// import java.util.Scanner;  //revision
+// public class trianglepatterns{
+//   public static void main(String[] args) {
+//     Scanner sc = new Scanner(System.in);
+//     int n = sc.nextInt();
+    
+//     for(int i =1;i<=n;i++)
+//     {
+//       for(int j =1;j<=n;j++){
+//    System.out.print("*"+" ");
+//       }
+   
+//   System.out.println();  }
+//   }
+// }
+
+// import java.util.Scanner;     //revision
+// public class trianglepatterns{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int n = sc.nextInt();
+
+//         for(int i=1;i<=n;i++)
+//         {
+//             for(int j=1;j<=n;j++)
+//             {
+//                 System.out.print(j);
+//             }
+//         System.out.println();}
+//     }
+// }
+
+// import java.util.Scanner;   //revison
+
+// public class trianglepatterns {
+// public static void main(String[] args) {
+//     Scanner sc = new Scanner(System.in);
+//     int n = sc.nextInt();
+
+//     for(int i =1;i<=n;i++)
+//     {
+//         for(int j=1;j<=n;j++)
+//         {
+//             System.out.print((char)(j+64));
+//         }
+// System.out.println();    }
+// }
+// }
+
+// import java.util.Scanner;     //revision
+
+// public class trianglepatterns {
+// public static void main(String[] args) {
+//     Scanner sc = new Scanner(System.in);
+//     int n = sc.nextInt();
+
+//     for(int i=1;i<=n;i++)
+//     {
+//         for(int j=1;j<=n;j++)
+//         {
+//             System.out.print((char)(i+64));
+//         }
+//     System.out.println();}
+// }
+// }
+
+// import java.util.Scanner;   //revision
+// public class trianglepatterns {
+
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int n = sc.nextInt();
+
+//         for(int i=1;i<=n;i++)
+//         {
+//             for(int j=1;j<=n;j++)
+//             {
+//                 System.out.print((char)(j+96));
+//             }
+//         System.out.println();}
+//     }
+// }
+
+// import java.util.Scanner;   //revision
+
+// public class trianglepatterns {
+
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int n = sc.nextInt();
+
+//         for(int i=1;i<=n;i++)
+//         {
+//             for(int j=1;j<=i;j++)
+//             {
+//                 System.out.print("*"+" ");
+//             }
+//         System.out.println();}
+//     }
+// }
+
+// import java.util.Scanner;    //Scanner
+
+// public class trianglepatterns {
+
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int n = sc.nextInt();
+
+//         for(int i=1;i<=n;i++)
+//             {
+//             for(int j=1;j<=i;j++)
+//             {
+//                 if(i%2==0)System.out.print((char)(j+64));
+//                 else System.out.print(j);
+//             }
+//         System.out.println();}
+//     }
+// }
+
+// import java.util.Scanner;
+
+// public class trianglepatterns {
+
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int n = sc.nextInt();
+
+//         for(int i=1;i<=n;i++)
+//         {
+//             for(int j=1;j<=n+1-i;j++)
+//             {
+//                 System.out.print("*"+" ");
+//             }
+//         System.out.println();}
+//     }
+// }
+
+// import java.util.Scanner;    //revision
+
+// public class trianglepatterns {
+
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int n = sc.nextInt();
+
+//         for(int i=1;i<=n;i++)
+//         {
+//             for(int j=1;j<=i;j++)
+//             {
+//                 System.out.print(2*j-1);
+//             }
+//         System.out.println();}
+//     }
+// }
+
+// import java.util.Scanner;  //revison
+
+// public class trianglepatterns {
+
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int n = sc.nextInt();
+          
+//         int a =1;
+
+//         for(int i=1;i<=n;i++)
+//         {
+//             for(int j=1;j<=i;j++)
+//             {
+//                 System.out.print(a);
+//                 a++;
+//             }
+//         System.out.println();}
+//     }
+// }
+
+// import java.util.Scanner;    //revision
+// /**
+//  * trianglepatterns
+//  */
+// public class trianglepatterns {
+
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int n = sc.nextInt();
+//         int a = 1;
+
+//         for(int i =1;i<=n;i++)
+//         {
+//             for(int j=1;j<=i;j++)
+//             {
+//                 System.out.print(a);
+//                 a++;
+//             }
+//         System.out.println();}
+//     }
+// }
+
+// import java.util.Scanner;       //revision
+// /**
+//  * trianglepatterns
+//  */
+// public class trianglepatterns {
+
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int n = sc.nextInt();
+//         int mid = n/2+1;
+//         for(int i =1;i<=n;i++)
+//         {
+//             for(int j=1;j<=n;j++)
+//             {
+//                 if(i==mid||j==mid) System.out.print("*"+" ");
+//                 else System.out.print(" "+" ");
+//             }
+//         System.out.println();}
+//     }
+// }
+
+// import java.util.Scanner;
+// /**
+//  * trianglepatterns
+//  */
+// public class trianglepatterns {
+
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int n = sc.nextInt();
+
+//         for(int i = 1;i<=n;i++)
+//         {
+//             for(int j=1;j<=i;j++)
+//             {
+//                 if(i % 2 == 0)
+//                 {
+//                     if(j % 2 == 0)
+//                         System.out.print("0");
+//                     else System.out.print("1");
+//                 }
+            
+//             if(i%2==1)
+//             {
+//                if (j%2==1)System.out.print("1");
+//                else System.out.print("0");   
+//             }
+//        }
+//    System.out.println();  }
+// }}
+
+// import java.util.Scanner;
+// /**
+//  * trianglepatterns
+//  */
+// public class trianglepatterns {
+
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int n = sc.nextInt();
+
+//         for(int i =1;i<=n;i++)
+//         {
+//             for(int j=1;j<=n-i;j++)
+//             {
+//                 System.out.print(" "+" ");
+//             }
+//             for(int j=1;j<=i;j++)
+//             {
+//                 System.out.print(j+" ");
+//             }
+//         System.out.println(); }
+//     }
+// }
+
