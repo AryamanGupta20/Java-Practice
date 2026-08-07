@@ -868,7 +868,7 @@
 //     }
 // }}
 
-import java.util.Scanner;    // satr diamond
+import java.util.Scanner;    // star diamond
 /**
  * trianglepatterns
  */
